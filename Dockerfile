@@ -25,3 +25,4 @@ RUN npm install -g npm
 
 # install serverless framework
 RUN npm install -g serverless@1.54.0
+
