@@ -7,6 +7,7 @@ RUN curl --silent --location https://rpm.nodesource.com/setup_10.x | bash -
 RUN yum -y install \
   git \
   jq \
+  which \
   nodejs \
   openssl-devel \
   python-devel.x86_64 \
