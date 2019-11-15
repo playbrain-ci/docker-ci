@@ -11,6 +11,7 @@ RUN yum -y install \
   nodejs \
   openssl-devel \
   python-devel.x86_64 \
+  mesa-libGL-devel \
   zlib-devel
 
 # install pip + aws cli
