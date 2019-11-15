@@ -13,7 +13,8 @@ RUN yum -y install \
   python-devel.x86_64 \
   mesa-libGL-devel \
   zip \
-  zlib-devel
+  zlib-devel \
+  libXi.so.6 
 
 # install pip + aws cli
 RUN curl -O https://bootstrap.pypa.io/get-pip.py && \
