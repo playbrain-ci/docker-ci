@@ -14,6 +14,7 @@ RUN yum -y install \
   mesa-libGL-devel \
   zip \
   zlib-devel \
+  libuuid \
   libXi.so.6 
 
 # install pip + aws cli
