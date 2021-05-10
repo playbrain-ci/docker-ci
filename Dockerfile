@@ -18,7 +18,7 @@ RUN yum -y install \
   libXi.so.6 
 
 # install pip + aws cli
-RUN curl -O https://bootstrap.pypa.io/get-pip.py && \
+RUN curl -O https://bootstrap.pypa.io/pip/2.7/get-pip.py && \
     python get-pip.py
 RUN pip install awscli --upgrade
 
