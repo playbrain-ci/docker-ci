@@ -3,7 +3,7 @@ LABEL maintainer="Steven Martel <stevenm@playbrain.jp>"
 
 RUN yum update -y
 # add nodejs repo
-RUN curl --silent --location https://rpm.nodesource.com/setup_10.x | bash -
+RUN curl --silent --location https://rpm.nodesource.com/setup_14.x | bash -
 RUN yum -y install \
   git \
   jq \
