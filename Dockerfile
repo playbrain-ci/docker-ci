@@ -15,6 +15,7 @@ RUN yum -y install \
   zip \
   zlib-devel \
   libuuid \
+  make \
   libXi.so.6 
 
 # install pip + aws cli
