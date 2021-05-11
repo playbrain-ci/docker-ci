@@ -17,6 +17,7 @@ RUN yum -y install \
   libuuid \
   make \
   gcc \
+  gcc-c++ \
   libXi.so.6 
 
 # install pip + aws cli
